@@ -1,0 +1,41 @@
+html {
+    background-color: #eee;
+}
+body{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header{
+  height: 50px;
+  background-color: #fff;
+}
+
+nav{
+  height: 50px;
+  background-color: #fff;
+}
+.content{
+  height: 500px;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+#butt{
+  width: 100px;
+  height: 30px;
+  margin:0;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  color: #000;
+  background-color: #f0fff0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0;
+  font-size: 24px;
+  text-align: center;
+}
+footer{
+  height: 50px;
+  background-color: #fff;
+}

@@ -1,0 +1,80 @@
+@font-face{
+    font-family: roboto;
+}
+html {
+    background-color: #eee;
+}
+body {
+  width: 1020px; 
+  margin: auto;
+  font-family: roboto, sans-serif;
+  }
+header {
+    width: 96%;
+  height:130px;
+  margin: 10px 2%;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 #000;
+  }
+nav {
+    width: 570px;
+    margin: 0 auto;
+}
+.cont {
+  height: 500px
+  }
+.cont{
+    
+}
+
+
+.blok{
+    width: 21%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    float: left;
+    margin:0 2% 20px 2%;
+}
+@media (max-width: 1024px){
+   body{
+    width:100%;
+   } 
+  .blok{
+    width: 29.3333333%;
+    margin:0 2% 20px 2%;
+  }
+}
+
+@media (max-width: 768px){
+   body{
+    width:100%;
+   } 
+  .blok{
+    width: 46%;
+    margin:0 2% 20px 2%;
+  }
+}
+
+@media (max-width: 360px){
+   body{
+    width:100%;
+   } 
+  .blok{
+    width: 96%;
+    margin:0 2% 20px 2%;
+    float: none;
+  }
+}
+
+
+footer {
+  height:100px;
+  margin-top: 10px;
+  background:#fff;
+  border-radius: 10px;
+  
+  }
