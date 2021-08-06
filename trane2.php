@@ -17,6 +17,6 @@
    <div class="content">
       <div id="butt"><span>Кнопка</span></div>
    </div>
-   <footer></footer> 
+   <footer>Подвал</footer> 
 </body>
 </html>
